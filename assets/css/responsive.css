@@ -1,0 +1,118 @@
+/* Small Device */
+@media only screen and (max-width: 576px) {
+  .topbar {
+    align-items: center;
+  }
+  .topbar-text a h6 {
+    display: none;
+  }
+  .about-img {
+    height: 255px;
+    width: 219px;
+    border-radius: 2px;
+    margin-left: 7px;
+  }
+  .about-img img {
+    width: 380px;
+  }
+  .hero-img {
+    margin: 20px auto 0px;
+  }
+  .hero-area h3 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .about-us {
+    margin-top: 225px;
+  }
+  /* testimonial section  */
+  .responsive-testimonial {
+    justify-content: center;
+  }
+  /* footer section  */
+  .resposive-space-mt {
+    margin-top: 10px;
+  }
+  .responsive-sm-576 {
+    flex-direction: column;
+    display: flex;
+  }
+}
+/* Medium Device */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* topbar  */
+  .responsive-sm {
+    margin-left: 10px;
+    font-size: 16px;
+    margin: auto;
+  }
+  .responsive-577-768 {
+    flex-wrap: nowrap;
+  }
+  .topbar-right {
+    margin-right: 31px;
+  }
+  .width-fix {
+    margin-left: -142px;
+  }
+  .responsive-sm a h6 {
+    display: none;
+  }
+  .topbar-right-content {
+    margin-left: 160px;
+  }
+  .topbar-right-content h6 {
+    margin-right: 20px;
+  }
+  .hero-area {
+    margin-top: 30px;
+  }
+  /* about us */
+  .about-img {
+    height: 350px;
+    width: 455px;
+    border-radius: 2px;
+  }
+  .about-img img {
+    width: 560px;
+  }
+  .about-us {
+    flex-direction: column;
+    margin-top: 170px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .responsive-sm-576 {
+    flex-direction: column;
+    display: flex;
+  }
+  /* pricing section  */
+}
+
+/* Large Device */
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .hero-img {
+    margin-right: 10px;
+  }
+  .about-img img {
+    width: 720px;
+  }
+  .about-us {
+    flex-direction: column;
+    margin-top: 220px;
+    font-size: 16px;
+    margin-left: 48px;
+  }
+  .pricing-button-responsive {
+    margin: 0 !important;
+  }
+}
+
+/* Extra Large Device */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+}
+
+/* Extra Extra Large Device */
+@media only screen and (min-width: 1201) and (max-width: 1400px) {
+}

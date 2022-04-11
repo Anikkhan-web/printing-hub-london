@@ -1,0 +1,242 @@
+:root {
+  --primary-color: red;
+  --secondary-color: green;
+}
+/* Typography */
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+}
+h2 {
+  font-family: "Pacifico";
+  color: tomato;
+}
+/* Hero Section CSS */
+
+/* nav section */
+
+/* .bg-color {
+  background-color: #001a46 !important;
+  color: white !important;
+} */
+
+/* hero section */
+/* .hero-bg {
+  height: 100%;
+} */
+/* top bar color */
+
+.topbar {
+  background-color: #00113f !important;
+}
+/* .topbar-right-content {
+} */
+
+.topbar-right-content {
+}
+.navbar-icon {
+  margin-left: 88px;
+}
+/* hero section  */
+.hero-bg {
+  width: 100%;
+}
+.hero-text h3 {
+  font-size: 50px;
+}
+.hero-img {
+  width: 350px;
+  height: 350px;
+  margin: 50px;
+}
+.btn-one {
+  background-color: tomato;
+  color: white;
+  border: 1px solid tomato !important;
+}
+.btn-two {
+  background-color: #00113f;
+  color: white;
+  border: 1px solid white !important;
+}
+/* about section  */
+.about-img img {
+  height: 450px;
+  width: 550px;
+  border-radius: 2px;
+  margin-left: -13px;
+}
+.about-img {
+  height: 300px;
+  width: 300px;
+  border-left: 10px solid tomato;
+  border-top: 10px solid tomato;
+  margin-left: 14px;
+}
+.about-us {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.about-us h5 {
+  color: #001a46;
+}
+/* service section  */
+/* .service-bg {
+  background-image: url(assets/);
+} */
+.service-margin {
+  margin: 100px 0px 100px 0px;
+}
+.card-img {
+  border: 1px solid #65748d;
+}
+.card-img img {
+  /* margin-top: 20px; */
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+.img-icon {
+  position: absolute;
+  margin: 42px 0 0 145px;
+  color: white;
+}
+.card-title {
+  color: #001a46;
+}
+.card-text {
+  color: #2e2e2e !important;
+}
+.service-icon {
+  color: tomato;
+}
+/* service hub  */
+.service-hub {
+  margin-right: 50px;
+}
+.service-hub a {
+  font-size: 20px;
+}
+.service-hub-hover a:hover {
+  background-color: tomato;
+  color: white !important;
+}
+.service-hub-icon {
+  background-color: #001a46 !important;
+}
+.star-color {
+  color: #ff9900;
+}
+.margin-right {
+  margin-right: 50px;
+}
+.price-color {
+  color: tomato;
+}
+.sale-space {
+  margin-bottom: -32px;
+}
+.name-space {
+  margin-top: -12px;
+  font-size: 20px;
+  color: #001a46;
+}
+.service-hub-border {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #001a46;
+}
+.service-hub-bg {
+  background-color: #001a46;
+}
+/* pricing section  */
+.pricing-text {
+  width: max-content;
+}
+.pricing-hover:hover {
+  background-color: #001a46;
+  color: white;
+}
+#DivForHoverItem {
+  /*just so we can see it*/
+  position: absolute;
+  margin-top: 412px;
+}
+#HiddenText {
+  position: relative;
+  display: none;
+}
+#DivForHoverItem:hover #HiddenText {
+  display: block;
+}
+.pricing-hover:hover h5 {
+  background-color: white;
+  border-radius: 4px;
+  color: #2e2e2e !important;
+  width: max-content;
+}
+.pricing-hover:hover button {
+  background-color: tomato;
+  border: 0 !important;
+}
+.product-short-desc {
+  bottom: -60px;
+  z-index: 1;
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.product-item:hover .product-short-desc {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.3s;
+}
+/* testimonilas section  */
+.testimonials-sec p {
+  background-color: white;
+  color: #2e2e2e;
+}
+/* section footer  */
+.background-footer {
+  background-color: #001a46;
+}
+.footer-color {
+  color: tomato;
+}
+/* --------------------------------- */
+/* about.html  */
+.about-bg-color {
+  background-color: #001a46;
+}
+.delivary-icon-color {
+  color: tomato;
+  font-size: 50px;
+}
+.about-us-icon-size {
+  font-size: 40px;
+  margin-top: -20px;
+  margin-right: 20px;
+}
+/* cart section  */
+.cart-item img {
+  width: 100px;
+  height: 80px;
+}
+/* billing-table section  */
+.table-text-font {
+  font-size: 14px;
+}
+/* privacy section  */
+.privacy-text-font {
+  font-size: 14px;
+}
+/* products section  */
+.products-img {
+  margin-left: 13px;
+}
+/* login  */
+.login-font {
+  font-size: 12px;
+}
